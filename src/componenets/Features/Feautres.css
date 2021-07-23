@@ -1,0 +1,122 @@
+#features{
+    width: 100%;
+}
+.heading{
+    text-align: center;
+    padding: 20px 0;
+}
+#features .heading h1{
+    color:rgba(251, 91, 22, 1);
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+}
+#features .heading p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #282828;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.box-sm{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom:5px;
+}
+.box-sm img{
+    margin: 0 20px;
+}
+.button{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button button{
+    width: 192px;
+    height: 47px;
+    background: #FB5B16;
+    border-radius: 14px;
+    align-self: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 950px){
+  #features .heading h1{
+    font-size: 20px;
+}
+#features .heading p{
+    font-size: 16px;
+    padding: 0 20px;
+}
+.list{
+    margin-top: -30px;
+}
+.box-sm{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom:0px;
+}
+.center img{
+    max-width: 80%;
+    margin: 20px 20px;
+    padding: 20px 0;
+}
+.button{
+     margin-bottom: 15px;
+}
+.button button{
+    width: 160px;
+    font-size: 16px;
+}  
+}
+@media screen and (max-width: 768px) {
+#features .heading h1{
+
+    font-size: 24px;
+}
+#features .heading p{
+    font-size: 16px;
+    padding: 0 20px;
+}
+.list{
+    margin-top: -30px;
+}
+.box-sm{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom:0px;
+}
+.center img{
+    max-width: 80%;
+    margin: 20px 20px;
+    padding: 20px 0;
+}
+.button{
+     margin-bottom: 15px;
+}
+.button button{
+    width: 160px;
+    font-size: 16px;
+}
+}

@@ -1,0 +1,154 @@
+#header{
+    background-color:  rgba(238, 231, 231, 1);
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.left{
+    height: 450px;
+    padding: 100px 0;
+    max-width: 50%;
+}
+.left h1{
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 30px 0 20px 70px;
+
+}
+.left h1 span{
+    color: rgba(251, 91, 22, 1);
+
+}
+.left p{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0px 20px 0px 70px;
+}
+.left button{
+    height: 44px;
+    width: 163px;
+    border-radius: 14px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: rgba(251, 91, 22, 1);
+    color: #ffffff;
+    margin: 40px 0 0 70px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.right
+{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.right img{
+    width: 80%;
+    height: 380px;
+    margin-left: 100px;
+}
+ h3{
+    color:rgba(251, 91, 22, 1);
+    text-align: center;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 40px;
+}
+.container-sm{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-sm p{
+    color: gray;
+    margin-bottom: 5px;
+}
+.container-sm h2{
+    
+    margin-top: 15px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+@media screen and (max-width: 768px) {
+.container{
+    flex-direction: column;
+}
+.left{
+    padding: 20px 0;
+    max-width: 100%;
+}
+.left h1{
+    font-family: Roboto;
+    font-size: 30px;
+    padding: 40px 0 20px 30px;
+}
+.left p{
+    font-size: 18px;
+    padding: 0px 20px 0px 30px;
+}
+.left button{
+    height: 44px;
+    width: 140px;
+    font-size: 18px;
+    margin: 30px 0 0 30px;
+}
+.right
+{
+    margin-top: -200px;
+    width: 100%;   
+}
+.right img{
+    width: 70%;
+    height: 380px;
+    margin-left: 0px;
+}
+#header h3{
+    font-size: 18px;
+    padding-left: 20px;
+    margin-top: -40px;
+   }
+   .row{
+       flex-direction: column;
+   }
+   .container-sm{
+    height: 130px;
+  }
+
+.container-sm h2{ 
+    margin-top: 5px;
+   }
+}
